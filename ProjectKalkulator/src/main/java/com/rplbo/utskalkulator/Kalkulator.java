@@ -25,7 +25,7 @@ public class Kalkulator {
             System.out.println(hasil);
         }
         if (op.equals("/")){
-            int hasil = (int) bil1 / (int) bil2;
+            int hasil = bil1 / bil2;
             System.out.println(hasil);
         }
         if (op.equals("^")){
